@@ -222,6 +222,22 @@ body {
 }
 
 
+.parpadeo {
+
+    animation-duration: 2s;
+    animation-name: parpadeo;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes parpadeo {
+
+    0% { opacity: 0;}
+    50% {opacity: 100%;}
+    100% {opacity: 0%;}
+}
+
+
 /* MEDIA QUERY*/
 
 
