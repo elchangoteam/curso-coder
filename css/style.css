@@ -4,74 +4,6 @@ body {
 }
 
 
-.grilla {
-    display: grid;
-    grid-template-columns: 3fr 1fr 1fr 1fr;
-    grid-template-areas:
-        "header header header header"
-        "primera-seccion segunda-seccion tercera-seccion cuarta-seccion"
-        "footer footer footer footer"
-
-}
-
-
-.header {
-    grid-area: header;
-
-}
-
-
-
-.primera-seccion {
-    grid-area: primera-seccion;
-
-}
-
-
-.segunda-seccion {
-    grid-area: segunda-seccion;
-    padding: 25px;
-
-}
-
-.segunda-seccion:hover {
-    background-color: #000000;
-    color: #ffffff;
-    transition: 0.5s;
-
-}
-
-.tercera-seccion {
-    grid-area: tercera-seccion;
-    padding: 25px;
-
-}
-
-.tercera-seccion:hover {
-    background-color: #000000;
-    color: #ffffff;
-    transition: 0.5s;
-
-}
-
-.cuarta-seccion {
-    grid-area: cuarta-seccion;
-    padding: 25px;
-}
-
-.cuarta-seccion:hover {
-    background-color: #000000;
-    color: #ffffff;
-    transition: 0.5s;
-
-}
-
-.footer {
-    grid-area: footer;
-
-
-}
-
 .heroScene {
 
     height: 100vh;
@@ -120,7 +52,8 @@ body {
 
 
 .title {
-
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
     font-size: 98px;
     line-height: 90px;
     color: #ffffff;
@@ -141,7 +74,7 @@ body {
     font-family: sans-serif;
     letter-spacing: 6px;
     font-weight: 100;
-    margin-top: -50px;
+    margin-top: 20px;
 
 }
 
@@ -164,19 +97,21 @@ body {
 
 }
 
-.menu li {
 
-    margin: 0 15px;
-    text-decoration: none !important;
-    list-style: none;
-
-}
-
-.menu li a {
+.nav-link {
     color: #ffffff;
     text-decoration: none !important;
     text-transform: uppercase;
-    font-family: sans-serif;
+    font-weight: 600;  
+
+}
+
+
+
+.active {
+    color: #ffffff !important;
+    border-bottom: 2px solid #ffffff;
+    
 
 }
 
@@ -219,74 +154,4 @@ body {
 .no-padd {
     padding: none !important;
     margin: 0 !important;
-}
-
-
-.parpadeo {
-
-    animation-duration: 2s;
-    animation-name: parpadeo;
-    animation-iteration-count: infinite;
-
-}
-
-@keyframes parpadeo {
-
-    0% { opacity: 0;}
-    50% {opacity: 100%;}
-    100% {opacity: 0%;}
-}
-
-
-/* MEDIA QUERY*/
-
-
-@media (max-width: 768px) {
-    .grilla {
-        grid-template-areas:
-            "header header header header"            
-            "segunda-seccion segunda-seccion segunda-seccion segunda-seccion"
-            "tercera-seccion tercera-seccion tercera-seccion tercera-seccion"            
-            "cuarta-seccion cuarta-seccion cuarta-seccion cuarta-seccion"
-            "primera-seccion primera-seccion primera-seccion primera-seccion"
-            "footer footer footer footer"
-        ;
-    }
-
-    .aside {
-        display: none;
-    }
-
-    .menu {
-        flex-direction: column;
-    }
-
-    .nav,
-    .footer {
-
-        flex-direction: column;
-        text-align: center;
-
-    }
-
-    .col-50 {
-        width: 70%;
-    }
-
-    .title {
-        font-size: 55px;
-        line-height: 50px;
-    }
-
-
-    .subtitle {
-        font-size: 16px;   
-        margin-top: -20px;
-    }
-
-    .locate {
-        font-size: 15px;
-        
-    
-    }
 }
