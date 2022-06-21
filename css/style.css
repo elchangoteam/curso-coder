@@ -14,7 +14,7 @@ body {
 
 }
 
-.servicios {
+.services {
 
     height: 650px;
     background-image: url(../img/residentes-jugando-al-tejo.webp);
@@ -23,7 +23,7 @@ body {
 
 }
 
-.instalaciones {
+.installations {
 
     height: 650px;
     background-image: url(../img/residencia-atras.webp);
@@ -32,7 +32,7 @@ body {
 
 }
 
-.actividades {
+.activities {
 
     height: 650px;
     background-image: url(../img/motricidad-fina-en-la-tercera-edad.webp);
@@ -41,7 +41,7 @@ body {
 
 }
 
-.contacto {
+.contact {
 
     height: 650px;
     background-image: url(../img/ayekan-geriatrico-en-cordoba-6.jpg);
