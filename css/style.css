@@ -155,3 +155,23 @@ body {
     padding: none !important;
     margin: 0 !important;
 }
+
+.btn {
+background-color: #cda980;
+border-color: #cda980;
+
+}
+
+.btn:hover {
+
+    background-color: #cda880;
+    border-color: #cda980;
+}
+
+
+@media  (max-width: 480px){
+
+.title {font-size: 55px;
+        line-height: 55px;}
+
+}
