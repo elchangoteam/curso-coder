@@ -52,7 +52,7 @@ body {
 
 
 .title {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 800;
     font-size: 98px;
     line-height: 90px;
@@ -102,7 +102,7 @@ body {
     color: #ffffff;
     text-decoration: none !important;
     text-transform: uppercase;
-    font-weight: 600;  
+    font-weight: 600;
 
 }
 
@@ -111,7 +111,7 @@ body {
 .active {
     color: #ffffff !important;
     border-bottom: 2px solid #ffffff;
-    
+
 
 }
 
@@ -157,8 +157,8 @@ body {
 }
 
 .btn {
-background-color: #cda980;
-border-color: #cda980;
+    background-color: #cda980;
+    border-color: #cda980;
 
 }
 
@@ -169,9 +169,35 @@ border-color: #cda980;
 }
 
 
-@media  (max-width: 480px){
+.parpadeo {
 
-.title {font-size: 55px;
-        line-height: 55px;}
+    animation-duration: 2s;
+    animation-name: parpadeo;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes parpadeo {
+
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 0%;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .title {
+        font-size: 55px;
+        line-height: 55px;
+    }
 
 }
