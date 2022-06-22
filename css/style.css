@@ -1,18 +1,10 @@
+
 body {
     margin: 0px;
 
 }
 
 
-.heroScene {
-
-    height: 100vh;
-    background-image: url(../img/background-principal.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-
-
-}
 
 .services {
 
