@@ -1,0 +1,26 @@
+@import './tipografias';
+@import './colores';
+
+
+
+
+@mixin titulosPrincipales ($fuenteTitulos, $grande, $colorSecundario) {
+
+    font-family: $fuenteTitulos;
+    font-size: $grande;
+    color: $colorSecundario;
+    font-weight: 600;
+
+
+}
+
+%parrafosGenerales {
+
+    font-family: $fuenteParrafo;
+    font-size: 16px;
+    color: $colorSecundario;
+}
+
+
+
+

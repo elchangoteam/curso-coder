@@ -1,0 +1,8 @@
+Se agregaron titulos personalizados en todas las paginas.
+
+Se agregaron las metadescription en las paginas.
+
+Se agregaron las etiquetas.
+
+Se agregaron etiquetas alt en imagenes.
+

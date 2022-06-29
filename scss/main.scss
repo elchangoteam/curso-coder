@@ -1,4 +1,29 @@
-
+@import 'variables/colores';
+@import 'variables/extend';
+@import 'variables/tipografias';
 
 @import 'secciones/header';
 
+
+
+.servicios {
+
+
+    h4{
+
+       @include titulosPrincipales ($fuenteTitulos, $mediano, $colorSecundario);
+    }
+
+    p { 
+        
+        @extend %parrafosGenerales   
+    
+    }
+}
+
+
+.tituloPagina {
+
+     @include titulosPrincipales ($fuenteTitulos, $grande, $colorSecundario);
+
+}

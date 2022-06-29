@@ -1,3 +1,10 @@
+/** Variables */
+/** Variables */
+.servicios p {
+  font-family: "Open Sans";
+  font-size: 16px;
+  color: #333333; }
+
 .header {
   height: 100vh;
   background-image: url(../img/background-principal.jpg);
@@ -19,3 +26,15 @@
     letter-spacing: 6px;
     font-weight: 100;
     margin-top: 20px; }
+
+.servicios h4 {
+  font-family: "Playfair Display";
+  font-size: 28px;
+  color: #333333;
+  font-weight: 600; }
+
+.tituloPagina {
+  font-family: "Playfair Display";
+  font-size: 48px;
+  color: #333333;
+  font-weight: 600; }
